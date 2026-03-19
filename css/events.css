@@ -1,0 +1,275 @@
+.logo-design {
+  width: 150px;
+  height: 100px;
+}
+
+.navbar-a {
+  color: white;
+  font-family: Arial, sans-serif;
+  display: flex;
+  gap: 20px;
+  padding: 20px;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-top: 20px;
+  scroll-behavior: smooth;
+  background-color: #0b4f34;
+}
+
+.donate-design {
+  background-color: green;
+  color: white;
+  border-radius: 10px;
+  padding: 20px;
+}
+.head-er {
+  color: white;
+  font-size: large;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.p-info {
+  font-size: larger;
+  font-weight: 400;
+}
+
+.what-to-know {
+  width: 60%;
+  margin-left: 30px;
+  margin-right: auto;
+  padding: 20px;
+  margin-top: 10px;
+  font-size: medium;
+  text-align: left;
+}
+.fsss-info {
+  text-decoration: underline;
+  text-decoration-thickness: 3px;
+  text-underline-offset: 15px;
+  background-color: f0f0f0;
+  font-size: xx-large;
+}
+.past-gallery {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+  background: #f9f9f9;
+  padding: 20px;
+  margin-top: 100px;
+  padding-top: 100px;
+  margin-left: 10px;
+  gap: 20px;
+}
+.gallery-card {
+  overflow: hidden;
+  border-radius: 6px;
+  position: relative;
+  padding-bottom: 30px;
+}
+.gallery-card img {
+  width: 90%;
+  height: 90%;
+  object-fit: cover;
+  transition: transform 0.5s ease;
+}
+.gallery-card:hover img {
+  transform: scale(1.15);
+}
+.fsss-infor {
+  text-decoration: underline;
+  text-decoration-thickness: 3px;
+  text-underline-offset: 15px;
+  text-decoration-color: green;
+  background-color: f0f0f0;
+  font-size: xx-large;
+  margin-left: 200px;
+  display: inline-block;
+  text-align: left;
+  margin-left: 300px;
+  margin-bottom: 0px;
+  grid-column: 1;
+  grid-row: 1;
+  align-self: center;
+  justify-self: center;
+  font-weight: 900;
+}
+.ramadan {
+  background-color: f0f0f0;
+  font-size: large;
+  margin-left: 20px;
+  display: inline-block;
+  text-align: left;
+  margin-left: 10px;
+  margin-bottom: 0px;
+  grid-column: 1;
+  grid-row: 1;
+  align-self: center;
+  justify-self: center;
+}
+.aware-ness {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
+  width: 60%;
+  margin-left: 200px;
+  margin-right: auto;
+  padding: 20px;
+  margin-top: 10px;
+}
+.programme-color {
+  color: green;
+  font-size: xx-large;
+  font-weight: 900;
+  margin-bottom: 50px;
+}
+
+.up-coming {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  padding: 20px;
+  margin-top: 100px;
+  padding-top: 100px;
+  margin-left: 10px;
+  width: 90%;
+  gap: 30px;
+}
+
+.events {
+  overflow: hidden;
+  border-radius: 6px;
+  padding-bottom: 30px;
+}
+
+.donate-design {
+  background-color: green;
+  color: white;
+  border-radius: 10px;
+  padding: 20px;
+}
+.donate-design:hover {
+  background-color: rgb(130, 96, 96);
+}
+
+.upcoming-events-h1 {
+  text-align: center;
+  text-decoration: underline;
+  color: rgb(18, 62, 18);
+  text-underline-offset: 12px;
+  font-weight: 900;
+  margin-top: 70px;
+  font-size: xx-large;
+}
+
+.upcoming-events-p {
+  width: 100%;
+  font-weight: 500;
+  font-size: large;
+  font-size: 20px;
+}
+
+.upcoming-img {
+  width: 500px;
+  height: 300px;
+}
+.calendar-view{
+  font-size: xx-large;
+            margin-bottom: 0px;
+            color: rgb(25, 96, 25);
+            text-align: center;
+}
+
+.footer-overall-div {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  background-color: rgb(201, 192, 192);
+  mix-blend-mode: color-burn;
+  gap: 900;
+  margin-top: 100px;
+}
+.donation-homepage-div {
+  margin-top: 10px;
+  text-align: justify;
+  font-weight: 500;
+  margin-top: -20px;
+  line-height: 40px;
+  font-size: x-large;
+  color: white;
+  background-color: rgb(13, 54, 13);
+  padding-right: 150px;
+  padding-top: 50px;
+  padding-left: 100px;
+  padding-bottom: 80px;
+}
+
+.donation-div-sec {
+  display: flex;
+}
+.donate-h2 {
+  margin-top: 10px;
+  font-size: xx-large;
+  margin-left: 420px;
+  font-weight: 900;
+}
+
+.donate-img {
+  width: 50px;
+  height: 70px;
+  margin-top: -10px;
+  mix-blend-mode: color-burn;
+}
+.donate-p {
+  text-align: center;
+}
+.donate-p-span {
+  font-style: oblique;
+  font-weight: 900;
+}
+.footer-sec-div {
+  margin-left: 100px;
+}
+.footer-third-div {
+  display: flex;
+}
+.fssmc-h2-footer {
+  color: rgb(17, 47, 17);
+  font-weight: 900;
+  font-size: x-large;
+  margin-top: 100px;
+  width: 50%;
+}
+.fssmc-p-footer {
+  margin-right: 200px;
+  margin-top: -10px;
+  font-size: larger;
+  line-height: 1.6;
+}
+.get-in-touch-overall-div {
+  grid-template-rows: (2, 1fr);
+}
+
+.getintouch {
+  margin-top: 100px;
+}
+.getintouch-email {
+  text-decoration: none;
+  color: rgb(16, 49, 16);
+  font-size: large;
+  font-weight: bolder;
+  line-height: 40px;
+}
+.getintouch-phone {
+  display: block;
+  text-decoration: none;
+  color: rgb(16, 49, 16);
+  font-size: large;
+  font-weight: bolder;
+  line-height: 40px;
+}
+.getintouch-address {
+  text-decoration: none;
+  color: rgb(16, 49, 16);
+  font-size: large;
+  font-weight: bolder;
+  line-height: 40px;
+}
+

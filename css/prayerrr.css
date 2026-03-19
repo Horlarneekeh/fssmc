@@ -1,0 +1,299 @@
+.our-info {
+  padding: 80px;
+  text-align: center;
+  background-color: rgb(156, 156, 180);
+}
+.fssmc-info {
+  font-size: xx-large;
+  font-weight: bolder;
+}
+.fsss-info {
+  text-decoration: underline;
+  text-decoration-thickness: 3px;
+  text-underline-offset: 15px;
+  text-decoration-color: green;
+  background-color: f0f0f0;
+  font-size: xx-large;
+  display: inline-block;
+  text-align: center;
+}
+.p-info {
+  font-size: larger;
+  font-weight: 100;
+  line-height: 30px;
+  text-align: justify;
+  margin: 0px;
+  font-family:
+    open sans,
+    sans serif;
+  display: inline-block;
+  margin-left: 10px;
+}
+.prayer {
+  background-color: cadetblue;
+  margin-left: 30px;
+  width: 30%;
+}
+.salat {
+  font-size: xx-large;
+  font-weight: 900;
+  text-align: center;
+}
+.pa-info {
+  font-size: larger;
+  font-weight: 100;
+  line-height: 25px;
+  text-align: justify;
+  text-align: left;
+  margin: 0px;
+  font-family:
+    open sans,
+    sans serif;
+  display: inline-block;
+  margin-left: 10px;
+  display: list-item;
+  list-style-position: inside;
+}
+
+.logo-design {
+  width: 150px;
+  height: 100px;
+}
+
+.navbar-a {
+  color: white;
+  font-family: Arial, sans-serif;
+  display: flex;
+  gap: 20px;
+  padding: 20px;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-top: 20px;
+  scroll-behavior: smooth;
+  background-color: #0b4f34;
+}
+
+.donate-design {
+  background-color: green;
+  color: white;
+  border-radius: 10px;
+  padding: 20px;
+}
+.head-er {
+  color: white;
+  font-size: large;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.jummah-prayer-h1 {
+  text-align: center;
+  text-decoration: underline;
+  text-decoration-color: yellow;
+  color: rgb(20, 80, 20);
+  text-underline-position: below;
+  text-underline-offset: 10px;
+  font-weight: 600;
+  font-size: xx-large;
+  margin-top: 100px;
+}
+
+.jummah-prayer-p {
+  font-size: larger;
+}
+
+.jummah-prayer-ptwo {
+  font-size: large;
+  font-weight: 500;
+}
+
+.jummah-prayer-ul {
+  font-size: large;
+  list-style-position: inside;
+}
+
+.sunnah-of-jumah-main-div {
+  width: 90%;
+}
+
+.sunnah-of-jumah-h2 {
+  text-align: center;
+  text-decoration: underline;
+  text-decoration-color: yellow;
+  color: rgb(20, 80, 20);
+  text-underline-position: below;
+  text-underline-offset: 10px;
+  font-weight: 600;
+  font-size: xx-large;
+}
+
+.sunnah-of-jumah-ul {
+  list-style-type: disc;
+  font-size: larger;
+}
+
+.taraweeh-schedule-div {
+  width: 80%;
+  margin-left: 50px;
+}
+
+.taraweeh-schedule-h2 {
+  margin-left: -10px;
+  font-weight: 600;
+  font-size: xx-large;
+  margin-top: 60px;
+  text-decoration: underline;
+  text-decoration-color: yellow;
+  color: rgb(20, 80, 20);
+  text-underline-position: below;
+  text-underline-offset: 10px;
+  font-weight: 600;
+  font-size: xx-large;
+}
+.taraweeh-schedule-pone {
+  font-size: larger;
+  font-weight: 300;
+}
+.prayer-guideline-div {
+  width: 70%;
+  margin-left: 50px;
+  line-height: 1.8;
+}
+.prayer-guideline-h2 {
+  margin-bottom: -20px;
+  text-decoration: underline;
+  text-decoration-color: yellow;
+  color: rgb(20, 80, 20);
+  text-underline-position: below;
+  text-underline-offset: 10px;
+  font-weight: 600;
+  font-size: xx-large;
+}
+.prayer-guideline-p {
+  margin-bottom: -5px;
+  font-size: larger;
+  font-weight: 300;
+}
+.prayer-guideline-li {
+  font-size: larger;
+  font-weight: 300;
+}
+
+.rites-of-eid-el-fitr-h2 {
+  font-size: xx-large;
+  font-weight: 900;
+  text-align: center;
+  text-decoration: underline;
+}
+.rites-of-eid-el-fitr-li {
+  display: list-item;
+  list-style-type: disc;
+}
+
+.rites-of-eid-el-adha-h2 {
+  font-size: xx-large;
+  font-weight: 900;
+  text-align: center;
+  font-size: xx-large;
+  font-weight: 900;
+  text-align: center;
+  text-decoration: underline;
+}
+
+.rites-of-eid-el-adha-li {
+  display: list-item;
+  list-style-type: disc;
+}
+
+.footer-overall-div {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  background-color: rgb(201, 192, 192);
+  mix-blend-mode: color-burn;
+  gap: 900;
+  margin-top: 100px;
+}
+.donation-homepage-div {
+  margin-top: 10px;
+  text-align: justify;
+  font-weight: 500;
+  margin-top: -20px;
+  line-height: 40px;
+  font-size: x-large;
+  color: white;
+  background-color: rgb(13, 54, 13);
+  padding-right: 150px;
+  padding-top: 50px;
+  padding-left: 100px;
+  padding-bottom: 80px;
+}
+
+.donation-div-sec {
+  display: flex;
+}
+.donate-h2 {
+  margin-top: 10px;
+  font-size: xx-large;
+  margin-left: 420px;
+  font-weight: 900;
+}
+
+.donate-img {
+  width: 50px;
+  height: 70px;
+  margin-top: -10px;
+  mix-blend-mode: color-burn;
+}
+.donate-p {
+  text-align: center;
+}
+.donate-p-span {
+  font-style: oblique;
+  font-weight: 900;
+}
+.footer-sec-div {
+  margin-left: 100px;
+}
+.footer-third-div {
+  display: flex;
+}
+.fssmc-h2-footer {
+  color: rgb(17, 47, 17);
+  font-weight: 900;
+  font-size: x-large;
+  margin-top: 100px;
+  width: 50%;
+}
+.fssmc-p-footer {
+  margin-right: 200px;
+  margin-top: -10px;
+  font-size: larger;
+  line-height: 1.6;
+}
+.get-in-touch-overall-div {
+  grid-template-rows: (2, 1fr);
+}
+
+.getintouch {
+  margin-top: 100px;
+}
+.getintouch-email {
+  text-decoration: none;
+  color: rgb(16, 49, 16);
+  font-size: large;
+  font-weight: bolder;
+  line-height: 40px;
+}
+.getintouch-phone {
+  display: block;
+  text-decoration: none;
+  color: rgb(16, 49, 16);
+  font-size: large;
+  font-weight: bolder;
+  line-height: 40px;
+}
+.getintouch-address {
+  text-decoration: none;
+  color: rgb(16, 49, 16);
+  font-size: large;
+  font-weight: bolder;
+  line-height: 40px;
+}

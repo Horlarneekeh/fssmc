@@ -1,0 +1,302 @@
+.transi-tion {
+  padding-right: 70px;
+  padding-bottom: 20px;
+  padding-left: 40px;
+  padding-top: 20px;
+  cursor: pointer;
+  background-color: yellow;
+  color: green;
+  font-weight: 900;
+  font-size: larger;
+  border-radius: 15px;
+  transition:
+    background-color 1s,
+    color 1s ease-in-out;
+}
+.transi-tion:hover {
+  background-color: green;
+  color: yellow;
+}
+
+.transi-tions {
+  padding-right: 70px;
+  padding-bottom: 20px;
+  padding-left: 40px;
+  padding-top: 20px;
+  cursor: pointer;
+  background-color: yellow;
+  color: green;
+  font-weight: 900;
+  font-size: larger;
+  border-radius: 15px;
+  margin-left: 120px;
+  margin-top: 45px;
+  transition:
+    background-color 1s,
+    color 1s step-end;
+}
+.transi-tions:hover {
+  background-color: green;
+  color: yellow;
+}
+
+.transi-tioning {
+  padding-right: 30px;
+  padding-bottom: 20px;
+  padding-left: 20px;
+  padding-top: 20px;
+  cursor: pointer;
+  background-color: green;
+  color: white;
+  font-weight: 900;
+  font-size: larger;
+  border-radius: 15px;
+  margin-left: -90px;
+  margin-top: 25px;
+  transition: 1s ease-in-out;
+}
+
+.logo-design {
+  width: 150px;
+  height: 100px;
+}
+
+.navbar-a {
+  color: white;
+  font-family: Arial, sans-serif;
+  display: flex;
+  gap: 20px;
+  padding: 20px;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-top: 20px;
+  scroll-behavior: smooth;
+  background-color: #0b4f34;
+}
+
+.donate-design {
+  background-color: green;
+  color: white;
+  border-radius: 10px;
+  padding: 20px;
+}
+.head-er {
+  color: white;
+  font-size: large;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.our-info {
+  padding: 80px;
+  text-align: center;
+  background-color: rgb(156, 156, 180);
+}
+
+.membershipoveralldiv {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20;
+}
+.membership-div-sec {
+  text-align: center;
+  box-shadow: 5px 5px 5px 5px rgb(163, 152, 152);
+  margin-left: 50px;
+  padding-bottom: 50px;
+}
+
+.membership-input {
+  font-size: medium;
+  font-weight: 400;
+  padding: 20px;
+  background-color: ghostwhite;
+  border-radius: 10px;
+  margin-bottom: 30px;
+  margin-right: 30px;
+  box-shadow: 5px 5px 5px 5px rgb(163, 152, 152);
+}
+.donation-overall-div {
+  margin-top: 10px;
+  margin-right: 50px;
+  margin-left: 60px;
+}
+
+.donation-div-sec {
+  display: flex;
+}
+.donation-p {
+  margin-top: 70px;
+  font-size: xx-large;
+  margin-left: 120px;
+}
+
+.donation-img {
+  width: 50px;
+  height: 70px;
+  margin-top: 50px;
+}
+
+.donate-now-p {
+  text-align: justify;
+  font-weight: 500;
+  margin-top: -20px;
+}
+
+.donate-now-p-span {
+  font-style: oblique;
+  font-weight: 900;
+}
+.act-of-service-overall-div {
+  display: grid;
+  grid-template-rows: repeat(2, 1fr);
+}
+.act-of-service-div-sec {
+  margin-left: 20px;
+  padding-bottom: 70px;
+  padding-top: 100px;
+  margin-right: 40px;
+  margin-top: -100px;
+}
+
+.interested-in-div {
+  margin-left: 90px;
+}
+
+.interested-in-p {
+  margin-top: -90px;
+  color: green;
+}
+
+.check-box {
+  accent-color: #41b883;
+}
+.post-interest {
+  color: green;
+  font-size: larger;
+  font-weight: 500;
+}
+
+.sponsor-pro-div {
+  margin-top: 120px;
+  width: 75%;
+}
+
+.sponsor-pro-h2 {
+  margin-left: 350px;
+  text-decoration: underline;
+  text-decoration-color: yellow;
+  text-decoration-thickness: 3px;
+  text-underline-offset: 10px;
+}
+
+.sponsor-pro-p {
+  margin-left: 50px;
+  line-height: 1.5;
+  font-size: large;
+  color: rgb(6, 49, 6);
+}
+
+.become-a-sponsor-btn {
+  margin-left: 500px;
+  background-color: green;
+  border-radius: 20px;
+  padding-right: 160px;
+  width: 150px;
+  font-size: larger;
+  padding-left: 70px;
+  font-weight: 900;
+  color: white;
+}
+
+.footer-overall-div {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  background-color: rgb(201, 192, 192);
+  mix-blend-mode: color-burn;
+  gap: 900;
+  margin-top: 100px;
+}
+.donation-homepage-div {
+  margin-top: 10px;
+  text-align: justify;
+  font-weight: 500;
+  margin-top: -20px;
+  line-height: 40px;
+  font-size: x-large;
+  color: white;
+  background-color: rgb(13, 54, 13);
+  padding-right: 150px;
+  padding-top: 50px;
+  padding-left: 100px;
+  padding-bottom: 80px;
+}
+
+.donation-div-sec {
+  display: flex;
+}
+.donate-h2 {
+  margin-top: 10px;
+  font-size: xx-large;
+  margin-left: 420px;
+  font-weight: 900;
+}
+
+.donate-img {
+  width: 50px;
+  height: 70px;
+  margin-top: -10px;
+  mix-blend-mode: color-burn;
+}
+.donate-p {
+  text-align: center;
+}
+.donate-p-span {
+  font-style: oblique;
+  font-weight: 900;
+}
+.footer-sec-div {
+  margin-left: 100px;
+}
+.footer-third-div {
+  display: flex;
+}
+.fssmc-h2-footer {
+  color: rgb(17, 47, 17);
+  font-weight: 900;
+  font-size: x-large;
+  margin-top: 100px;
+  width: 50%;
+}
+.fssmc-p-footer {
+  margin-right: 200px;
+  margin-top: -10px;
+  font-size: larger;
+  line-height: 1.6;
+}
+.get-in-touch-overall-div {
+  grid-template-rows: (2, 1fr);
+}
+
+.getintouch {
+  margin-top: 100px;
+}
+.getintouch-email {
+  text-decoration: none;
+  color: rgb(16, 49, 16);
+  font-size: large;
+  font-weight: bolder;
+  line-height: 40px;
+}
+.getintouch-phone {
+  display: block;
+  text-decoration: none;
+  color: rgb(16, 49, 16);
+  font-size: large;
+  font-weight: bolder;
+  line-height: 40px;
+}
+.getintouch-address {
+  text-decoration: none;
+  color: rgb(16, 49, 16);
+  font-size: large;
+  font-weight: bolder;
+  line-height: 40px;
+}

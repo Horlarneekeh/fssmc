@@ -1,0 +1,294 @@
+.logo-design {
+  width: 150px;
+  height: 100px;
+}
+
+.navbar-a {
+  color: white;
+  font-family: Arial, sans-serif;
+  display: flex;
+  gap: 20px;
+  padding: 20px;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-top: 20px;
+  scroll-behavior: smooth;
+  background-color: #0b4f34;
+}
+
+.donate-design {
+  background-color: green;
+  color: white;
+  border-radius: 10px;
+  padding: 20px;
+}
+.head-er {
+  color: white;
+  font-size: large;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.fsss-infor {
+  text-decoration: underline;
+  text-decoration-thickness: 3px;
+  text-underline-offset: 15px;
+  text-decoration-color: green;
+  background-color: f0f0f0;
+  font-size: xx-large;
+  margin-left: 200px;
+  display: inline-block;
+  text-align: left;
+  margin-left: 300px;
+  margin-bottom: 0px;
+  grid-column: 1;
+  grid-row: 1;
+  align-self: center;
+  justify-self: center;
+  font-weight: 900;
+}
+.ramadan {
+  background-color: f0f0f0;
+  font-size: large;
+  margin-left: 20px;
+  display: inline-block;
+  text-align: left;
+  margin-left: 10px;
+  margin-bottom: 0px;
+  grid-column: 1;
+  grid-row: 1;
+  align-self: center;
+  justify-self: center;
+}
+.aware-ness {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
+  width: 60%;
+  margin-left: 200px;
+  margin-right: auto;
+  padding: 20px;
+  margin-top: 10px;
+}
+.programme-color {
+  color: green;
+  font-size: xx-large;
+  font-weight: 900;
+  margin-bottom: 50px;
+}
+.donate-design {
+  background-color: green;
+  color: white;
+  border-radius: 10px;
+  padding: 20px;
+}
+.donate-design:hover {
+  background-color: rgb(130, 96, 96);
+}
+.about-islam {
+  color: rgb(31, 82, 31);
+  font-size: xx-large;
+  font-weight: bolder;
+  text-decoration: underline;
+  text-decoration-color: rgb(232, 232, 40);
+  text-underline-offset: 10px;
+  text-decoration-thickness: 5px;
+  text-align: center;
+  margin-top: 100px;
+}
+
+.pabout-islam {
+  line-height: 1.8;
+  font-weight: 500;
+  font-size: medium;
+  text-align: center justify;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+.pillarsofislam {
+  color: rgb(31, 82, 31);
+  margin-top: 100px;
+  font-size: xx-large;
+  font-weight: bolder;
+  text-decoration: underline;
+  text-decoration-color: rgb(232, 232, 40);
+  text-underline-offset: 10px;
+  text-decoration-thickness: 5px;
+  margin-bottom: -30px;
+}
+
+.dpillarsofislam {
+  margin-left: 100px;
+}
+.ppillarsofislam {
+  margin-top: 70px;
+  font-size: larger;
+  color: rgb(10, 58, 10);
+  line-height: 1.3;
+  font-weight: 200px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  margin-bottom: -20px;
+  width: 80%;
+}
+
+.dislamic-resources {
+  width: 80%;
+  margin-left: 100px;
+}
+.islamic-resources {
+  text-align: center;
+  text-decoration: underline;
+  text-underline-offset: 10px;
+}
+.dislamic-resources-two {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 50;
+}
+.lab {
+  margin-top: 100px;
+  font-size: xx-large;
+  font-weight: 900;
+  text-align: center;
+  text-decoration: underline;
+  text-underline-offset: 10px;
+  text-decoration-color: yellow;
+  color: #0b4f34;
+}
+.plab {
+  line-height: 1.9;
+  margin-left: 30px;
+}
+
+.quranandtafsir-p {
+  margin-top: 30px;
+  margin-left: 40px;
+}
+
+.quranandtafsir-ul {
+  width: 50%;
+  width: 50%;
+  margin-top: -10px;
+}
+
+.video-lectures {
+  font-size: xx-large;
+  text-align: center;
+  font-weight: 900;
+  margin-top: 100px;
+}
+.div-videolectures {
+  margin-left: 30px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 80;
+  background-color: rgb(126, 116, 116);
+}
+
+.video-lectures-pic {
+  height: 350px;
+  width: 350px;
+  margin-left: 50px;
+  background-color: rgb(126, 116, 116);
+  mix-blend-mode: color-burn;
+}
+
+.pvideo-lectures {
+  margin-left: 130px;
+  font-size: x-large;
+  font-weight: 900;
+}
+
+.footer-overall-div {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  background-color: rgb(201, 192, 192);
+  mix-blend-mode: color-burn;
+  gap: 900;
+  margin-top: 100px;
+}
+.donation-homepage-div {
+  margin-top: 10px;
+  text-align: justify;
+  font-weight: 500;
+  margin-top: -20px;
+  line-height: 40px;
+  font-size: x-large;
+  color: white;
+  background-color: rgb(13, 54, 13);
+  padding-right: 150px;
+  padding-top: 50px;
+  padding-left: 100px;
+  padding-bottom: 80px;
+}
+
+.donation-div-sec {
+  display: flex;
+}
+.donate-h2 {
+  margin-top: 10px;
+  font-size: xx-large;
+  margin-left: 420px;
+  font-weight: 900;
+}
+
+.donate-img {
+  width: 50px;
+  height: 70px;
+  margin-top: -10px;
+  mix-blend-mode: color-burn;
+}
+.donate-p {
+  text-align: center;
+}
+.donate-p-span {
+  font-style: oblique;
+  font-weight: 900;
+}
+.footer-sec-div {
+  margin-left: 100px;
+}
+.footer-third-div {
+  display: flex;
+}
+.fssmc-h2-footer {
+  color: rgb(17, 47, 17);
+  font-weight: 900;
+  font-size: x-large;
+  margin-top: 100px;
+  width: 50%;
+}
+.fssmc-p-footer {
+  margin-right: 200px;
+  margin-top: -10px;
+  font-size: larger;
+  line-height: 1.6;
+}
+.get-in-touch-overall-div {
+  grid-template-rows: (2, 1fr);
+}
+
+.getintouch {
+  margin-top: 100px;
+}
+.getintouch-email {
+  text-decoration: none;
+  color: rgb(16, 49, 16);
+  font-size: large;
+  font-weight: bolder;
+  line-height: 40px;
+}
+.getintouch-phone {
+  display: block;
+  text-decoration: none;
+  color: rgb(16, 49, 16);
+  font-size: large;
+  font-weight: bolder;
+  line-height: 40px;
+}
+.getintouch-address {
+  text-decoration: none;
+  color: rgb(16, 49, 16);
+  font-size: large;
+  font-weight: bolder;
+  line-height: 40px;
+}

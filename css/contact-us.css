@@ -1,0 +1,257 @@
+.logo-design {
+  width: 150px;
+  height: 100px;
+}
+
+.navbar-a {
+  color: white;
+  font-family: Arial, sans-serif;
+  display: flex;
+  gap: 20px;
+  padding: 20px;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-top: 20px;
+  scroll-behavior: smooth;
+  background-color: #0b4f34;
+}
+
+.donate-design {
+  background-color: green;
+  color: white;
+  border-radius: 10px;
+  padding: 20px;
+}
+.head-er {
+  color: white;
+  font-size: large;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.reach-out-maindiv {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+  box-shadow: 50px;
+  padding: 100px;
+  background-color: rgb(143, 143, 143);
+}
+
+.reach-out-secdiv {
+  grid-template-rows: repeat(2, 1fr);
+}
+.reach-out-h2 {
+  margin-left: -70px;
+  padding: 100px;
+  font-size: xx-large;
+  margin-top: -100px;
+  margin-left: -170px;
+}
+
+.reach-out-p {
+  margin-left: -70px;
+  font-weight: 500;
+  font-size: larger;
+  margin-top: -120px;
+  padding: 20px;
+}
+.tel {
+  text-decoration: none;
+  font-weight: 700;
+  margin-left: -50px;
+}
+.email {
+  text-decoration: none;
+  font-weight: 700;
+  margin-left: 70px;
+}
+.subscribediv {
+  background-color: whitesmoke;
+  padding-top: 100px;
+  margin-top: 100px;
+  padding: 40px;
+  margin-left: -90px;
+}
+
+.subscribe-h2 {
+  margin-left: 100px;
+  margin-bottom: 40px;
+  font-weight: 700;
+  margin-top: -70px;
+  font-size: xx-large;
+  padding-right: 100px;
+  padding: 50px;
+  margin-left: 40px;
+  margin-bottom: -10px;
+}
+
+.subscribeinput {
+  background-color: white;
+  width: 200px;
+  padding: 5px;
+  height: 60px;
+  border-radius: 3px;
+  border-width: 3px;
+  margin-bottom: 50px;
+  margin-left: 20px;
+  display: inline-block;
+  box-shadow: 20px 20px 20px 10px rgb(99, 97, 97);
+  border-top-left-radius: 30px;
+}
+.button {
+  margin-top: 20px;
+  display: block;
+  margin-right: 100px;
+  margin-left: 200px;
+  width: 200px;
+  height: 70px;
+  background-color: green;
+  color: white;
+  font-size: large;
+  font-weight: 700;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.send-us-a-message-div {
+  background-color: gray;
+  padding-top: 100px;
+  margin-top: -100px;
+  padding: 40px;
+  box-shadow: 10px 10px 10px 10px rgb(152, 149, 149);
+}
+
+.send-us-a-message-h2 {
+  margin-left: 100px;
+  font-weight: 700;
+  margin-top: -70px;
+  font-size: xx-large;
+  padding-right: 100px;
+  padding: 50px;
+  margin-left: 40px;
+  margin-bottom: -10px;
+}
+.send-us-a-message-placeholder {
+  background-color: white;
+  width: 200px;
+  padding: 5px;
+  height: 60px;
+  border-radius: 3px;
+  border-width: 3px;
+  margin-bottom: 50px;
+  margin-left: 20px;
+  display: inline-block;
+  box-shadow: 20px 20px 20px 10px rgb(99, 97, 97);
+}
+.send-us-a-message-btn {
+  margin-top: 20px;
+  display: block;
+  margin-right: 100px;
+  margin-left: 120px;
+  width: 200px;
+  height: 70px;
+  background-color: green;
+  color: white;
+  font-size: large;
+  font-weight: 700;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.ourlocation-h1 {
+  margin-top: 100px;
+  text-align: center;
+  margin-right: 320px;
+}
+.footer-overall-div {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  background-color: rgb(201, 192, 192);
+  mix-blend-mode: color-burn;
+  gap: 900;
+  margin-top: 100px;
+}
+.donation-homepage-div {
+  margin-top: 10px;
+  text-align: justify;
+  font-weight: 500;
+  margin-top: -20px;
+  line-height: 40px;
+  font-size: x-large;
+  color: white;
+  background-color: rgb(13, 54, 13);
+  padding-right: 150px;
+  padding-top: 50px;
+  padding-left: 100px;
+  padding-bottom: 80px;
+}
+
+.donation-div-sec {
+  display: flex;
+}
+.donate-h2 {
+  margin-top: 10px;
+  font-size: xx-large;
+  margin-left: 420px;
+  font-weight: 900;
+}
+
+.donate-img {
+  width: 50px;
+  height: 70px;
+  margin-top: -10px;
+  mix-blend-mode: color-burn;
+}
+.donate-p {
+  text-align: center;
+}
+.donate-p-span {
+  font-style: oblique;
+  font-weight: 900;
+}
+.footer-sec-div {
+  margin-left: 100px;
+}
+.footer-third-div {
+  display: flex;
+}
+.fssmc-h2-footer {
+  color: rgb(17, 47, 17);
+  font-weight: 900;
+  font-size: x-large;
+  margin-top: 100px;
+  width: 50%;
+}
+.fssmc-p-footer {
+  margin-right: 200px;
+  margin-top: -10px;
+  font-size: larger;
+  line-height: 1.6;
+}
+.get-in-touch-overall-div {
+  grid-template-rows: (2, 1fr);
+}
+
+.getintouch {
+  margin-top: 100px;
+}
+.getintouch-email {
+  text-decoration: none;
+  color: rgb(16, 49, 16);
+  font-size: large;
+  font-weight: bolder;
+  line-height: 40px;
+}
+.getintouch-phone {
+  display: block;
+  text-decoration: none;
+  color: rgb(16, 49, 16);
+  font-size: large;
+  font-weight: bolder;
+  line-height: 40px;
+}
+.getintouch-address {
+  text-decoration: none;
+  color: rgb(16, 49, 16);
+  font-size: large;
+  font-weight: bolder;
+  line-height: 40px;
+}
+
