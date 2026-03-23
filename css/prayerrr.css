@@ -1,299 +1,337 @@
-.our-info {
-  padding: 80px;
-  text-align: center;
-  background-color: rgb(156, 156, 180);
-}
-.fssmc-info {
-  font-size: xx-large;
-  font-weight: bolder;
-}
-.fsss-info {
-  text-decoration: underline;
-  text-decoration-thickness: 3px;
-  text-underline-offset: 15px;
-  text-decoration-color: green;
-  background-color: f0f0f0;
-  font-size: xx-large;
-  display: inline-block;
-  text-align: center;
-}
-.p-info {
-  font-size: larger;
-  font-weight: 100;
-  line-height: 30px;
-  text-align: justify;
-  margin: 0px;
-  font-family:
-    open sans,
-    sans serif;
-  display: inline-block;
-  margin-left: 10px;
-}
-.prayer {
-  background-color: cadetblue;
-  margin-left: 30px;
-  width: 30%;
-}
-.salat {
-  font-size: xx-large;
-  font-weight: 900;
-  text-align: center;
-}
-.pa-info {
-  font-size: larger;
-  font-weight: 100;
-  line-height: 25px;
-  text-align: justify;
-  text-align: left;
-  margin: 0px;
-  font-family:
-    open sans,
-    sans serif;
-  display: inline-block;
-  margin-left: 10px;
-  display: list-item;
-  list-style-position: inside;
-}
+/* FSSS specific styles (Prayer Page) */
 
-.logo-design {
-  width: 150px;
-  height: 100px;
-}
-
-.navbar-a {
-  color: white;
-  font-family: Arial, sans-serif;
+/* Page Header Override */
+.page-header {
+  position: relative;
+  height: 40vh;
+  min-height: 300px;
+  background: linear-gradient(rgba(7, 53, 34, 0.8), rgba(11, 79, 52, 0.85)), url('/images/fsssmcmainimg.jpeg') center/cover;
   display: flex;
-  gap: 20px;
-  padding: 20px;
   align-items: center;
-  justify-content: space-evenly;
-  margin-top: 20px;
-  scroll-behavior: smooth;
-  background-color: #0b4f34;
-}
-
-.donate-design {
-  background-color: green;
-  color: white;
-  border-radius: 10px;
-  padding: 20px;
-}
-.head-er {
-  color: white;
-  font-size: large;
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-}
-.jummah-prayer-h1 {
+  justify-content: center;
   text-align: center;
-  text-decoration: underline;
-  text-decoration-color: yellow;
-  color: rgb(20, 80, 20);
-  text-underline-position: below;
-  text-underline-offset: 10px;
-  font-weight: 600;
-  font-size: xx-large;
-  margin-top: 100px;
+  padding-top: 80px;
+  margin-bottom: 2rem;
 }
 
-.jummah-prayer-p {
-  font-size: larger;
+.page-header-content h1 {
+  font-size: clamp(2.5rem, 5vw, 4rem);
+  color: white;
+  margin-bottom: 0.5rem;
+  text-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
 }
 
-.jummah-prayer-ptwo {
-  font-size: large;
-  font-weight: 500;
+.page-header-content p {
+  color: #e2e8f0;
+  font-size: 1.1rem;
 }
 
-.jummah-prayer-ul {
-  font-size: large;
-  list-style-position: inside;
+/* Base Utility */
+.mt-4 {
+  margin-top: 1.5rem;
 }
 
-.sunnah-of-jumah-main-div {
-  width: 90%;
-}
-
-.sunnah-of-jumah-h2 {
-  text-align: center;
-  text-decoration: underline;
-  text-decoration-color: yellow;
-  color: rgb(20, 80, 20);
-  text-underline-position: below;
-  text-underline-offset: 10px;
-  font-weight: 600;
-  font-size: xx-large;
-}
-
-.sunnah-of-jumah-ul {
-  list-style-type: disc;
-  font-size: larger;
-}
-
-.taraweeh-schedule-div {
-  width: 80%;
-  margin-left: 50px;
-}
-
-.taraweeh-schedule-h2 {
-  margin-left: -10px;
-  font-weight: 600;
-  font-size: xx-large;
-  margin-top: 60px;
-  text-decoration: underline;
-  text-decoration-color: yellow;
-  color: rgb(20, 80, 20);
-  text-underline-position: below;
-  text-underline-offset: 10px;
-  font-weight: 600;
-  font-size: xx-large;
-}
-.taraweeh-schedule-pone {
-  font-size: larger;
-  font-weight: 300;
-}
-.prayer-guideline-div {
-  width: 70%;
-  margin-left: 50px;
+.max-w-con {
+  max-width: 800px;
+  margin: 0 auto 1.5rem;
   line-height: 1.8;
-}
-.prayer-guideline-h2 {
-  margin-bottom: -20px;
-  text-decoration: underline;
-  text-decoration-color: yellow;
-  color: rgb(20, 80, 20);
-  text-underline-position: below;
-  text-underline-offset: 10px;
-  font-weight: 600;
-  font-size: xx-large;
-}
-.prayer-guideline-p {
-  margin-bottom: -5px;
-  font-size: larger;
-  font-weight: 300;
-}
-.prayer-guideline-li {
-  font-size: larger;
-  font-weight: 300;
+  color: var(--text-muted);
+  font-size: 1.1rem;
 }
 
-.rites-of-eid-el-fitr-h2 {
-  font-size: xx-large;
-  font-weight: 900;
+/* Salah Section Overrides */
+.salah-section {
+  background: url('/images/fsssimage.jpeg') center/cover fixed no-repeat;
+  position: relative;
+}
+
+.salah-section::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(7, 53, 34, 0.85);
+}
+
+.salah-card {
+  position: relative;
+  z-index: 2;
+  background: var(--glass-bg);
+  backdrop-filter: blur(16px);
+  padding: 4rem 3rem;
+  border-radius: var(--radius-lg);
+  box-shadow: var(--shadow-lg);
+  max-width: 900px;
+  margin: 0 auto;
+  border: 1px solid var(--glass-border);
+}
+
+.salah-title {
+  font-size: 2.5rem;
+  color: var(--primary-dark);
+  margin-bottom: 0.5rem;
   text-align: center;
-  text-decoration: underline;
-}
-.rites-of-eid-el-fitr-li {
-  display: list-item;
-  list-style-type: disc;
 }
 
-.rites-of-eid-el-adha-h2 {
-  font-size: xx-large;
-  font-weight: 900;
+.salah-desc {
+  color: var(--text-muted);
+  font-style: italic;
+  margin-bottom: 3rem;
   text-align: center;
-  font-size: xx-large;
-  font-weight: 900;
-  text-align: center;
-  text-decoration: underline;
 }
 
-.rites-of-eid-el-adha-li {
-  display: list-item;
-  list-style-type: disc;
-}
-
-.footer-overall-div {
+.salah-times {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  background-color: rgb(201, 192, 192);
-  mix-blend-mode: color-burn;
-  gap: 900;
-  margin-top: 100px;
-}
-.donation-homepage-div {
-  margin-top: 10px;
-  text-align: justify;
-  font-weight: 500;
-  margin-top: -20px;
-  line-height: 40px;
-  font-size: x-large;
-  color: white;
-  background-color: rgb(13, 54, 13);
-  padding-right: 150px;
-  padding-top: 50px;
-  padding-left: 100px;
-  padding-bottom: 80px;
+  grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+  gap: 1.5rem;
+  margin-bottom: 3rem;
 }
 
-.donation-div-sec {
+.salah-item {
   display: flex;
-}
-.donate-h2 {
-  margin-top: 10px;
-  font-size: xx-large;
-  margin-left: 420px;
-  font-weight: 900;
-}
-
-.donate-img {
-  width: 50px;
-  height: 70px;
-  margin-top: -10px;
-  mix-blend-mode: color-burn;
-}
-.donate-p {
+  flex-direction: column;
+  gap: 0.5rem;
+  padding: 1.5rem 1rem;
+  background: var(--surface);
+  border-radius: var(--radius-md);
+  box-shadow: var(--shadow-sm);
+  transition: var(--transition);
   text-align: center;
 }
-.donate-p-span {
-  font-style: oblique;
-  font-weight: 900;
+
+.salah-item:hover {
+  transform: translateY(-5px);
+  background: var(--primary-light);
+  color: white;
 }
-.footer-sec-div {
-  margin-left: 100px;
+
+.salah-item:hover span,
+.salah-item:hover strong {
+  color: white;
 }
-.footer-third-div {
+
+.salah-item span {
+  font-size: 0.9rem;
+  text-transform: uppercase;
+  color: var(--text-muted);
+  letter-spacing: 1px;
+}
+
+.salah-item strong {
+  font-size: 1.4rem;
+  color: var(--primary-dark);
+  font-family: 'Outfit', sans-serif;
+  font-weight: 700;
+}
+
+.prayer-guidelines {
+  background: rgba(255, 255, 255, 0.6);
+  padding: 2rem;
+  border-radius: var(--radius-md);
+  text-align: left;
+}
+
+.prayer-guidelines h3 {
+  color: var(--primary);
+  margin-bottom: 1rem;
+}
+
+/* Custom Lists */
+.custom-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
   display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
 }
-.fssmc-h2-footer {
-  color: rgb(17, 47, 17);
-  font-weight: 900;
-  font-size: x-large;
-  margin-top: 100px;
-  width: 50%;
-}
-.fssmc-p-footer {
-  margin-right: 200px;
-  margin-top: -10px;
-  font-size: larger;
+
+.custom-list li {
+  position: relative;
+  padding-left: 2rem;
+  color: var(--text-main);
   line-height: 1.6;
 }
-.get-in-touch-overall-div {
-  grid-template-rows: (2, 1fr);
+
+.custom-list li::before {
+  content: '\f66f';
+  /* fa-mosque */
+  font-family: 'Font Awesome 6 Free';
+  font-weight: 900;
+  color: var(--accent);
+  position: absolute;
+  left: 0;
+  top: 2px;
+  font-size: 1.1rem;
 }
 
-.getintouch {
-  margin-top: 100px;
+.custom-list.compact li {
+  padding-left: 1.5rem;
 }
-.getintouch-email {
-  text-decoration: none;
-  color: rgb(16, 49, 16);
-  font-size: large;
-  font-weight: bolder;
-  line-height: 40px;
+
+.custom-list.compact li::before {
+  content: '✓';
+  color: var(--accent);
+  font-weight: bold;
 }
-.getintouch-phone {
-  display: block;
-  text-decoration: none;
-  color: rgb(16, 49, 16);
-  font-size: large;
-  font-weight: bolder;
-  line-height: 40px;
+
+/* Sunnah Card */
+.sunnah-card {
+  background: var(--surface);
+  border-radius: var(--radius-lg);
+  padding: 3rem 2.5rem;
+  box-shadow: var(--shadow-md);
+  border-top: 5px solid var(--accent);
 }
-.getintouch-address {
-  text-decoration: none;
-  color: rgb(16, 49, 16);
-  font-size: large;
-  font-weight: bolder;
-  line-height: 40px;
+
+.sunnah-card h3 {
+  font-size: 1.8rem;
+  margin-bottom: 2rem;
+  color: var(--primary-dark);
+  text-align: center;
+}
+
+.sunnah-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.sunnah-list li {
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 1.5rem;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+}
+
+.sunnah-list li:last-child {
+  border-bottom: none;
+  padding-bottom: 0;
+}
+
+.sunnah-list strong {
+  color: var(--primary);
+  font-size: 1.1rem;
+  margin-bottom: 0.25rem;
+}
+
+.sunnah-list span {
+  color: var(--text-muted);
+  font-size: 0.95rem;
+  line-height: 1.5;
+}
+
+/* Highlight Box */
+.highlight-box {
+  background: rgba(212, 175, 55, 0.1);
+  /* Gold tint */
+  border-left: 4px solid var(--accent);
+  padding: 1.5rem;
+  border-radius: 0 var(--radius-md) var(--radius-md) 0;
+}
+
+.highlight-box h4 {
+  color: var(--primary-dark);
+  margin-bottom: 0.5rem;
+}
+
+.highlight-box p {
+  font-size: 0.95rem !important;
+  margin-bottom: 1rem !important;
+}
+
+/* Eid Section */
+.eid-section {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 3rem;
+  margin-top: 3rem;
+}
+
+.eid-card {
+  background: var(--surface);
+  border-radius: var(--radius-lg);
+  overflow: hidden;
+  box-shadow: var(--shadow-md);
+  transition: var(--transition);
+  border: 1px solid var(--glass-border);
+}
+
+.eid-card:hover {
+  transform: translateY(-5px);
+  box-shadow: var(--shadow-lg);
+}
+
+.eid-header {
+  background: var(--primary);
+  padding: 2rem;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.eid-header h3 {
+  color: white;
+  margin: 0;
+  font-size: 1.8rem;
+}
+
+.badge {
+  background: var(--accent);
+  color: var(--primary-dark);
+  padding: 0.4rem 1rem;
+  border-radius: 50px;
+  font-size: 0.85rem;
+  font-weight: 700;
+}
+
+.eid-body {
+  padding: 2.5rem;
+}
+
+.eid-body p {
+  color: var(--text-muted);
+  margin-bottom: 1rem;
+  line-height: 1.7;
+}
+
+.eid-body h4 {
+  color: var(--primary-dark);
+  margin-bottom: 1rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 2px solid var(--bg-color);
+}
+
+/* Split Section Reusable Component */
+.split-section {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 4rem;
+  align-items: start;
+}
+
+.split-text p {
+  margin-bottom: 1.5rem;
+  color: var(--text-muted);
+  line-height: 1.8;
+  font-size: 1.05rem;
+}
+
+/* Responsive */
+@media (max-width: 900px) {
+  .split-section {
+    grid-template-columns: 1fr;
+    gap: 3rem;
+  }
+
+  .eid-section {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
 }

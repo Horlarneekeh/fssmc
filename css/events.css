@@ -1,275 +1,194 @@
-.logo-design {
-  width: 150px;
-  height: 100px;
-}
+/* FSSS specific styles (Events Page) */
 
-.navbar-a {
-  color: white;
-  font-family: Arial, sans-serif;
-  display: flex;
-  gap: 20px;
-  padding: 20px;
-  align-items: center;
-  justify-content: space-evenly;
-  margin-top: 20px;
-  scroll-behavior: smooth;
-  background-color: #0b4f34;
-}
-
-.donate-design {
-  background-color: green;
-  color: white;
-  border-radius: 10px;
-  padding: 20px;
-}
-.head-er {
-  color: white;
-  font-size: large;
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-}
-.p-info {
-  font-size: larger;
-  font-weight: 400;
-}
-
-.what-to-know {
-  width: 60%;
-  margin-left: 30px;
-  margin-right: auto;
-  padding: 20px;
-  margin-top: 10px;
-  font-size: medium;
-  text-align: left;
-}
-.fsss-info {
-  text-decoration: underline;
-  text-decoration-thickness: 3px;
-  text-underline-offset: 15px;
-  background-color: f0f0f0;
-  font-size: xx-large;
-}
-.past-gallery {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  gap: 20px;
-  background: #f9f9f9;
-  padding: 20px;
-  margin-top: 100px;
-  padding-top: 100px;
-  margin-left: 10px;
-  gap: 20px;
-}
-.gallery-card {
-  overflow: hidden;
-  border-radius: 6px;
+/* Page Header Override */
+.page-header {
   position: relative;
-  padding-bottom: 30px;
-}
-.gallery-card img {
-  width: 90%;
-  height: 90%;
-  object-fit: cover;
-  transition: transform 0.5s ease;
-}
-.gallery-card:hover img {
-  transform: scale(1.15);
-}
-.fsss-infor {
-  text-decoration: underline;
-  text-decoration-thickness: 3px;
-  text-underline-offset: 15px;
-  text-decoration-color: green;
-  background-color: f0f0f0;
-  font-size: xx-large;
-  margin-left: 200px;
-  display: inline-block;
-  text-align: left;
-  margin-left: 300px;
-  margin-bottom: 0px;
-  grid-column: 1;
-  grid-row: 1;
-  align-self: center;
-  justify-self: center;
-  font-weight: 900;
-}
-.ramadan {
-  background-color: f0f0f0;
-  font-size: large;
-  margin-left: 20px;
-  display: inline-block;
-  text-align: left;
-  margin-left: 10px;
-  margin-bottom: 0px;
-  grid-column: 1;
-  grid-row: 1;
-  align-self: center;
-  justify-self: center;
-}
-.aware-ness {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  gap: 10px;
-  width: 60%;
-  margin-left: 200px;
-  margin-right: auto;
-  padding: 20px;
-  margin-top: 10px;
-}
-.programme-color {
-  color: green;
-  font-size: xx-large;
-  font-weight: 900;
-  margin-bottom: 50px;
+  height: 40vh;
+  min-height: 300px;
+  background: linear-gradient(rgba(7, 53, 34, 0.8), rgba(11, 79, 52, 0.85)), url('/images/fsssmcmainimg.jpeg') center/cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding-top: 80px;
+  margin-bottom: 2rem;
 }
 
-.up-coming {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 20px;
-  padding: 20px;
-  margin-top: 100px;
-  padding-top: 100px;
-  margin-left: 10px;
-  width: 90%;
-  gap: 30px;
+.page-header-content h1 {
+  font-size: clamp(2.5rem, 5vw, 4rem);
+  color: white;
+  margin-bottom: 0.5rem;
+  text-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
 }
 
-.events {
+.page-header-content p {
+  color: #e2e8f0;
+  font-size: 1.1rem;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.max-w-con {
+  max-width: 800px;
+  margin: 0 auto 3rem;
+  line-height: 1.8;
+  color: var(--text-muted);
+  font-size: 1.1rem;
+}
+
+/* Upcoming Events Grid */
+.upcoming-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2.5rem;
+}
+
+.event-card {
+  background: var(--surface);
+  border-radius: var(--radius-lg);
   overflow: hidden;
-  border-radius: 6px;
-  padding-bottom: 30px;
+  box-shadow: var(--shadow-md);
+  transition: var(--transition);
+  border: 1px solid var(--glass-border);
+  display: flex;
+  flex-direction: column;
 }
 
-.donate-design {
-  background-color: green;
-  color: white;
-  border-radius: 10px;
-  padding: 20px;
-}
-.donate-design:hover {
-  background-color: rgb(130, 96, 96);
+.event-card:hover {
+  transform: translateY(-8px);
+  box-shadow: var(--shadow-lg);
+  border-color: var(--primary-light);
 }
 
-.upcoming-events-h1 {
-  text-align: center;
-  text-decoration: underline;
-  color: rgb(18, 62, 18);
-  text-underline-offset: 12px;
-  font-weight: 900;
-  margin-top: 70px;
-  font-size: xx-large;
-}
-
-.upcoming-events-p {
+.event-img {
   width: 100%;
-  font-weight: 500;
-  font-size: large;
-  font-size: 20px;
+  height: 220px;
+  overflow: hidden;
+  position: relative;
 }
 
-.upcoming-img {
-  width: 500px;
-  height: 300px;
-}
-.calendar-view{
-  font-size: xx-large;
-            margin-bottom: 0px;
-            color: rgb(25, 96, 25);
-            text-align: center;
+.event-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.8s ease;
 }
 
-.footer-overall-div {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  background-color: rgb(201, 192, 192);
-  mix-blend-mode: color-burn;
-  gap: 900;
-  margin-top: 100px;
-}
-.donation-homepage-div {
-  margin-top: 10px;
-  text-align: justify;
-  font-weight: 500;
-  margin-top: -20px;
-  line-height: 40px;
-  font-size: x-large;
-  color: white;
-  background-color: rgb(13, 54, 13);
-  padding-right: 150px;
-  padding-top: 50px;
-  padding-left: 100px;
-  padding-bottom: 80px;
+.event-card:hover .event-img img {
+  transform: scale(1.1);
 }
 
-.donation-div-sec {
-  display: flex;
-}
-.donate-h2 {
-  margin-top: 10px;
-  font-size: xx-large;
-  margin-left: 420px;
-  font-weight: 900;
+.event-body {
+  padding: 2rem;
+  flex-grow: 1;
 }
 
-.donate-img {
-  width: 50px;
-  height: 70px;
-  margin-top: -10px;
-  mix-blend-mode: color-burn;
+.event-body h3 {
+  color: var(--primary-dark);
+  margin-bottom: 1rem;
+  font-size: 1.4rem;
 }
-.donate-p {
-  text-align: center;
-}
-.donate-p-span {
-  font-style: oblique;
-  font-weight: 900;
-}
-.footer-sec-div {
-  margin-left: 100px;
-}
-.footer-third-div {
-  display: flex;
-}
-.fssmc-h2-footer {
-  color: rgb(17, 47, 17);
-  font-weight: 900;
-  font-size: x-large;
-  margin-top: 100px;
-  width: 50%;
-}
-.fssmc-p-footer {
-  margin-right: 200px;
-  margin-top: -10px;
-  font-size: larger;
+
+.event-body p {
+  color: var(--text-muted);
   line-height: 1.6;
 }
-.get-in-touch-overall-div {
-  grid-template-rows: (2, 1fr);
+
+/* Calendar View */
+.calendar-wrapper {
+  box-shadow: var(--shadow-lg);
+  border-radius: var(--radius-md);
+  overflow: hidden;
+  background: var(--surface);
+  max-width: 1000px;
+  margin: 0 auto;
 }
 
-.getintouch {
-  margin-top: 100px;
-}
-.getintouch-email {
-  text-decoration: none;
-  color: rgb(16, 49, 16);
-  font-size: large;
-  font-weight: bolder;
-  line-height: 40px;
-}
-.getintouch-phone {
+.calendar-wrapper iframe {
+  width: 100%;
+  height: 600px;
   display: block;
-  text-decoration: none;
-  color: rgb(16, 49, 16);
-  font-size: large;
-  font-weight: bolder;
-  line-height: 40px;
-}
-.getintouch-address {
-  text-decoration: none;
-  color: rgb(16, 49, 16);
-  font-size: large;
-  font-weight: bolder;
-  line-height: 40px;
 }
 
+/* Ramadan Grid */
+.ramadan-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 2rem;
+}
+
+.ramadan-card {
+  background: var(--surface);
+  padding: 2.5rem;
+  border-radius: var(--radius-md);
+  text-align: center;
+  box-shadow: var(--shadow-sm);
+  transition: var(--transition);
+  border: 1px solid rgba(0, 0, 0, 0.05);
+  border-bottom: 4px solid var(--accent);
+}
+
+.ramadan-card:hover {
+  transform: translateY(-5px);
+  box-shadow: var(--shadow-lg);
+}
+
+.ramadan-icon {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+  display: inline-block;
+}
+
+.ramadan-card h3 {
+  color: var(--primary-dark);
+  font-size: 1.3rem;
+  margin-bottom: 1rem;
+}
+
+.ramadan-card p {
+  color: var(--text-muted);
+  font-size: 0.95rem;
+  line-height: 1.6;
+}
+
+/* Masonry Gallery Grid */
+.gallery-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  grid-auto-rows: 250px;
+  gap: 1.5rem;
+}
+
+.gallery-item {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: var(--radius-md);
+  box-shadow: var(--shadow-sm);
+  transition: transform 0.5s ease;
+  cursor: pointer;
+}
+
+.gallery-item:nth-child(even) {
+  grid-row: span 2;
+  /* Creates masonry-like effect */
+}
+
+.gallery-item:hover {
+  transform: scale(1.03);
+  box-shadow: var(--shadow-lg);
+  z-index: 2;
+}
+
+/* Responsive Overrides */
+@media (max-width: 768px) {
+  .calendar-wrapper iframe {
+    height: 400px;
+  }
+
+  .gallery-item:nth-child(even) {
+    grid-row: span 1;
+  }
+}
